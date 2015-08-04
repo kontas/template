@@ -108,8 +108,8 @@ function envoiEmail($destinataire,$sujet,$corpsMessage){
 	//=====Définition du sujet.
 	$sujet = $sujet;
 	//=====Création du header de l'e-mail.
-	$header = "From: \"cilsila.fr\"<contact@cilsila.fr>".$passage_ligne;
-	$header.= "Reply-to: \"cilsila.fr\"<contact@cilsila.fr>".$passage_ligne;
+	$header = "From: \"domaine.fr\"<contact@domaine.fr>".$passage_ligne;
+	$header.= "Reply-to: \"domaine.fr\"<contact@domaine.fr>".$passage_ligne;
 	$header.= "MIME-Version: 1.0".$passage_ligne;
 	$header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
 	//=====Création du message.
